@@ -31,3 +31,26 @@ REST API는 자원을 URL로 나타내고, HTTP 메소드로 작업을 지정하
 
 <API 명세서 작성>
 
+1. 할 일 전체 조회
+HTTP Method: GET
+URL: /todo/list
+
+2. 할 일 생성
+HTTP Method: POST
+URL: /todo
+
+3. 할 일 수정
+HTTP Method: PATCH
+URL: /todo/{todoId}
+
+4. 할 일 삭제
+HTTP Method: DELETE
+URL: /todo/{todoId}
+
+5. 할 일 체크
+HTTP Method: POST
+URL: /todo/{todoId}/check
+
+6. 할 일 체크 해제
+HTTP Method: POST
+URL: /todo/{todoId}/uncheck
