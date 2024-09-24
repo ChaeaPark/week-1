@@ -1,4 +1,4 @@
-<1주차 스터디를 통해 배운 내용>
+***1주차 스터디를 통해 배운 내용***
 
 1. 웹(Web):
 
@@ -88,4 +88,9 @@ URL: /friend/{friendId}/todo/list
 5. 친구 삭제:
 HTTP Method: DELETE
 URL: /friend/{friendId}
+
+***어플리케이션 실행 사진***
+![whitelabel error page](https://github.com/user-attachments/assets/cfbcb14d-b6ce-4497-bb72-362daaf20f93)
+
+
 
