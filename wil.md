@@ -29,7 +29,9 @@ ex) 브라우저에서 네이버에 접속하면, 클라이언트가 네이버 �
 API는 응용 프로그램들이 서로 소통하기 위한 규칙을 정의한 인터페이스로 웹에서는 클라이언트가 백엔드 서버에 요청을 보낼 때 API를 사용한다.
 REST API는 자원을 URL로 나타내고, HTTP 메소드로 작업을 지정하는 방식이다.
 
-<API 명세서 작성>
+***API 명세서 작성***
+
+<할 일 관련 API>
 
 1. 할 일 전체 조회
 HTTP Method: GET
@@ -54,3 +56,36 @@ URL: /todo/{todoId}/check
 6. 할 일 체크 해제
 HTTP Method: POST
 URL: /todo/{todoId}/uncheck
+
+<유저 관리 API>
+
+1. 회원 가입 (회원 정보 생성):
+HTTP Method: POST
+URL: /user/register
+
+2. 로그인 (인증):
+HTTP Method: POST
+URL: /user/login
+
+<친구 관련 API>
+
+1. 친구 추가:
+HTTP Method: POST
+URL: /friend/{friendId}
+
+2. 친구 목록 조회:
+HTTP Method: GET
+URL: /friend/list
+
+3. 특정 친구 정보 조회:
+HTTP Method: GET
+URL: /friend/{friendId}
+
+4. 특정 친구의 할 일 목록 조회:
+HTTP Method: GET
+URL: /friend/{friendId}/todo/list
+
+5. 친구 삭제:
+HTTP Method: DELETE
+URL: /friend/{friendId}
+
